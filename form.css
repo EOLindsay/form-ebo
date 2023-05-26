@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(#010129, #090941, #310255);
+    width: 100vw;
+    height: 35vh;
+    color: white;
+    padding: 15px;
+}
+.contact{
+    color: #02023d;
+    padding: 4px 10px;
+    margin: 4px 25px;
+}
+h1{
+    padding: 10px;
+    margin: 10px 25px;
+}
+header p{
+    padding: 5px 10px 8px 10px;
+    margin: 5px 25px;
+}
+h2{
+    color: #010129;
+    padding: 5px 10px;
+    margin: 5px 25px;
+}
+.reach{
+    padding: 10px 15px;
+    width: 100vw;
+}
+.reach p:first-of-type{
+    padding: 5px 10px;
+    margin: 5px 25px;
+    font-size: 15px;
+}
+.reach i{
+    padding: 10px;
+    margin: 1px 5px 1px 1px;
+    border: 1px solid #010129;
+    color: white;
+    background-color: #010129;
+    border-radius: 50%;
+}
+.ugh{
+    width: 850px;
+    position: absolute;
+    top: 160px;
+    right: 45px;
+    background-color: white;
+    box-shadow: 3px 3px 10px #383838;
+}
+.lighter{
+    background-color: #b2cdd6;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.inst{
+    font-size: 15px;
+}
+.lighter i{
+    padding: 25px 10px;
+    border: #010129 1px solid;
+    color: white;
+    background-color: #010129;
+    margin-right: 5px;
+    border-radius: 10%;
+}
+form{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 12px;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+input[type=text], [type=email]{
+    width: 400px;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+textarea{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+input[type=button]{
+    color: white;
+    background-color: #010129;
+    padding: 8px;
+    width: 150px;
+    text-align: left;
+    align-self: center;
+}
+form i{
+    position: absolute;
+    bottom: 25px;
+    left: 455px;
+    color: white;
+}
+.required{
+    color: red;
+    font:bold
+}
